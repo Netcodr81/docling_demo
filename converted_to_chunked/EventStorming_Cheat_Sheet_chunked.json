@@ -1,0 +1,973 @@
+[
+  {
+    "text": "The following document describes a pragmatic 'cheat sheet' for event-storming workshops. The information refers to the (highly recommended) book by the event-storming \"inventor\" Alberto Brandolini: Brandolini, A. (2015). Introducing EventStorming. Leanpub. https://leanpub.com/introduc-ing_eventstorming",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 70.824,
+                "t": 729.9400439453126,
+                "r": 516.565,
+                "b": 675.4300439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                303
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cheat Sheet for Event-Storming Big Picture Workshop"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "- Sufficiently long wall (5m) or at least 3 Metaplan walls next to each other\n- Assorted Post-Its (see below) -'super sticky' preferred\n- Fruit and drinks\n- Chairs and tables cleared away if possible - participants need (a) space to move around, and should (b) not be able to sit down directly (at least not in front of the event storming wall). Discussions should take place while standing.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/5",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 88.824,
+                "t": 632.9500439453126,
+                "r": 435.865,
+                "b": 621.9100439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/6",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 88.824,
+                "t": 617.8100439453125,
+                "r": 354.565,
+                "b": 606.7700439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/7",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 88.824,
+                "t": 602.6900439453126,
+                "r": 179.205,
+                "b": 591.6500439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/8",
+          "parent": {
+            "cref": "#/groups/0"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 88.824,
+                "t": 587.5700439453126,
+                "r": 519.261,
+                "b": 547.7300439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                236
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Requirements on the location"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "The legend should be written to a whiteboard. Just one sticky type at a time, otherwise you confuse people. The following sequence describes the usual steps for a 'Big Picture' w orkshop.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 70.824,
+                "t": 505.94004394531254,
+                "r": 518.564,
+                "b": 480.26004394531253,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                187
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Legend"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "- Event before / during / after use of the IT system\n- Verb in the past tense\n- Relevant to domain experts\n- Chronological order!\n- Pressing questions\n- Inconsistencies\n- Don't look for them -just note them if you consider them important!\n3. Enforcing timeline\nOrder the domain events so that they signify a sequential flow of events.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/13",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 418.32004394531253,
+                "r": 497.805,
+                "b": 407.2800439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/14",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 395.2800439453125,
+                "r": 377.755,
+                "b": 384.24004394531255,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/15",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 372.24004394531255,
+                "r": 402.955,
+                "b": 361.20004394531253,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/16",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 349.18004394531255,
+                "r": 371.755,
+                "b": 338.1400439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/19",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 253.63004394531254,
+                "r": 362.635,
+                "b": 242.59004394531257,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/20",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 230.59004394531257,
+                "r": 347.275,
+                "b": 219.5500439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/21",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 259.06,
+                "t": 207.3100439453126,
+                "r": 511.833,
+                "b": 181.87004394531255,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                69
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/22",
+          "parent": {
+            "cref": "#/groups/1"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 142.85,
+                "t": 124.43004394531249,
+                "r": 299.674,
+                "b": 108.35004394531256,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/23",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 70.824,
+                "t": 97.8480439453125,
+                "r": 398.155,
+                "b": 86.80804394531253,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                73
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "1. Domain Events"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "- The few most significant events in the flow\n- Often the events with the highest number of domain experts interested\n- can be concrete people or roles\n- event something like 'angry customer' may help\n- IT system outside our own control\n- can belong to another company (e.g. credit card system)\n- can also be internal, but outside scope of our project",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/30",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 718.3900439453125,
+                "r": 470.905,
+                "b": 707.3500439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/31",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 694.8700439453125,
+                "r": 515.682,
+                "b": 669.6700439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/32",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 585.1700439453125,
+                "r": 420.745,
+                "b": 574.1300439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/33",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 562.1300439453125,
+                "r": 495.365,
+                "b": 551.0900439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/34",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 444.00004394531254,
+                "r": 432.025,
+                "b": 432.9600439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/35",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 420.72004394531257,
+                "r": 511.359,
+                "b": 395.2800439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/36",
+          "parent": {
+            "cref": "#/groups/2"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 383.2800439453125,
+                "r": 515.565,
+                "b": 372.24004394531255,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                56
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "4. Pivotal Elements"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Let the teams tell the story. Switch at pivotal elements.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/38",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 70.824,
+                "t": 288.22004394531257,
+                "r": 319.895,
+                "b": 277.1800439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                57
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "7. Tell the story (narrator)"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "- Mark ideas that may be beyond your scope right now\n- Candidates for future developments and releases",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/41",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 215.23004394531256,
+                "r": 517.965,
+                "b": 204.19004394531248,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/42",
+          "parent": {
+            "cref": "#/groups/3"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 259.06,
+                "t": 192.19004394531248,
+                "r": 499.965,
+                "b": 181.15004394531252,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                49
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "8. Opportunities"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "Sometimes it makes sense to continue into the design level with the event storming approach. Those relevant stickies to be used there.",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/46",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "text",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 70.824,
+                "t": 703.0300439453125,
+                "r": 523.74,
+                "b": 677.5900439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                134
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "Cheat Sheet for Design-Level Workshop"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  },
+  {
+    "text": "- Can come from user, system, domain event, or unspecified\n- Can be directed at a system or aggregate\n- Present tense, imperative\n- Aggregate as in the DDD sense\n- 'Important domain business object'\n- don't try to be 'final' in naming that can come later",
+    "meta": {
+      "schema_name": "docling_core.transforms.chunker.DocMeta",
+      "version": "1.0.0",
+      "doc_items": [
+        {
+          "self_ref": "#/texts/52",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 615.4100439453125,
+                "r": 511.299,
+                "b": 589.9700439453126,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                58
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/53",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 577.9700439453126,
+                "r": 447.385,
+                "b": 566.9300439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/54",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 554.9300439453125,
+                "r": 379.675,
+                "b": 543.8900439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/55",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 423.60004394531256,
+                "r": 401.275,
+                "b": 412.56004394531254,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/56",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 400.56004394531254,
+                "r": 424.181,
+                "b": 389.5200439453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "self_ref": "#/texts/57",
+          "parent": {
+            "cref": "#/groups/4"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "list_item",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 241.06,
+                "t": 377.5200439453125,
+                "r": 504.525,
+                "b": 366.48004394531256,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                55
+              ]
+            }
+          ]
+        }
+      ],
+      "headings": [
+        "2. Aggregates"
+      ],
+      "captions": null,
+      "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 13057300860877685533,
+        "filename": "EventStorming_Cheat_Sheet.pdf",
+        "uri": null
+      }
+    }
+  }
+]
